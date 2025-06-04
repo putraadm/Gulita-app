@@ -15,8 +15,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Navbar />
-        <div id="root" className="w-full">
-          <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/symptoms" element={<SymptomChecklist />} />
           <Route path="/optional-data" element={<OptionalData />} />
@@ -26,7 +25,6 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>
-        </div>
       </Router>
     </AuthProvider>
   )
