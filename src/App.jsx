@@ -9,6 +9,7 @@ import History from './pages/History'
 import Education from './pages/Education'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import User from './pages/User'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/user" element={<User />} />
         </Routes>
       </Router>
     </AuthProvider>
